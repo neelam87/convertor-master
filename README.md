@@ -1,1 +1,0 @@
-rfg-ods-accounting-producer API used to generate COREP std-magnitude file for palier. Same palier file would be send to ERG through TOM setup. 
