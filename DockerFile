@@ -1,0 +1,4 @@
+FROM openjdk:10-jre-slim
+EXPOSE 8081
+ADD /target/convertor-service.jar convertor-service.jar
+ENTRYPOINT ["java", "-jar", "convertor-service.jar"]

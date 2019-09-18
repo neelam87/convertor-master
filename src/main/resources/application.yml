@@ -1,0 +1,8 @@
+Server:
+   port: 8081
+rate:
+  url: https://api.exchangeratesapi.io/latest
+vat:
+  url: https://api.cloudmersive.com/validate/vat/lookup
+  
+swagger.enabled: true

@@ -1,0 +1,5 @@
+com/convertor/port/adapter/rest/endpoint/ConvertorResourceTest.class
+com/convertor/application/service/ValidateVatServiceTest.class
+com/convertor/port/adapter/rest/client/request/ExchangeRateServiceImplTest.class
+com/convertor/port/adapter/rest/client/request/VatServiceImplTest.class
+com/convertor/application/service/CurrencyServiceTest.class

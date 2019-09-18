@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.convertor.application.service.CurrencyServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 20.887 s <<< FAILURE! - in com.convertor.application.service.CurrencyServiceTest
+testProcess(com.convertor.application.service.CurrencyServiceTest)  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method iNR(String) in the type Rate.RateBuilder is not applicable for the arguments (double)
+
+	at com.convertor.application.service.CurrencyServiceTest.setUp(CurrencyServiceTest.java:48)
+
+testConvert(com.convertor.application.service.CurrencyServiceTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method iNR(String) in the type Rate.RateBuilder is not applicable for the arguments (double)
+
+	at com.convertor.application.service.CurrencyServiceTest.setUp(CurrencyServiceTest.java:48)
+
