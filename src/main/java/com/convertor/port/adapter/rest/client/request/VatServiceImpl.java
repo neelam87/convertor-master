@@ -29,7 +29,7 @@ public class VatServiceImpl implements VatService {
 	private RestTemplate restTemplate;
 
 	@Value("${vat.url}")
-	private String vatUrl = "https://api.cloudmersive.com/validate/vat/lookup";
+	private String vatUrl;
 
 	public VatServiceImpl(final RestTemplate restTemplate) {
 		this.restTemplate = restTemplate;
