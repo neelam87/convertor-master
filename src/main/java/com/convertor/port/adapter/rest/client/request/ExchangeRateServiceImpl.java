@@ -33,7 +33,7 @@ public class ExchangeRateServiceImpl implements ExchangeRateService {
 	private RestTemplate restTemplate;
 	
 	@Value("${rate.url}")
-	private String rateUrl = "https://api.exchangeratesapi.io/latest";
+	private String rateUrl;
 
 	public ExchangeRateServiceImpl(final RestTemplate restTemplate) {
 		this.restTemplate = restTemplate;
